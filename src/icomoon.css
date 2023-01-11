@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'afp-capital-icons';
+    src:  url('fonts/afp-capital-icons.eot?1mn2lf');
+    src:  url('fonts/afp-capital-icons.eot?1mn2lf#iefix') format('embedded-opentype'),
+      url('fonts/afp-capital-icons.ttf?1mn2lf') format('truetype'),
+      url('fonts/afp-capital-icons.woff?1mn2lf') format('woff'),
+      url('fonts/afp-capital-icons.svg?1mn2lf#afp-capital-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="afp-cap-"], [class*=" afp-cap-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'afp-capital-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .afp-cap-back:before {
+    content: "\e900";
+  }
+  .afp-cap-bloq:before {
+    content: "\e901";
+  }
+  .afp-cap-check:before {
+    content: "\e902";
+  }
+  .afp-cap-close:before {
+    content: "\e903";
+  }
+  .afp-cap-date:before {
+    content: "\e904";
+  }
+  .afp-cap-delete:before {
+    content: "\e905";
+  }
+  .afp-cap-dropdown:before {
+    content: "\e906";
+  }
+  .afp-cap-loader:before {
+    content: "\e907";
+  }
+  .afp-cap-next:before {
+    content: "\e908";
+  }
+  .afp-cap-not-visible:before {
+    content: "\e909";
+  }
+  .afp-cap-question:before {
+    content: "\e90a";
+  }
+  .afp-cap-search:before {
+    content: "\e90b";
+  }
+  .afp-cap-start:before {
+    content: "\e90c";
+  }
+  .afp-cap-submit:before {
+    content: "\e90d";
+  }
+  .afp-cap-visible:before {
+    content: "\e90e";
+  }
+  .afp-cap-warning:before {
+    content: "\e90f";
+  }
+  
